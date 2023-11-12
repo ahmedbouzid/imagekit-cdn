@@ -7,9 +7,9 @@ export class AppService {
 
   constructor() {
     this.imagekit = new ImageKit({
-      publicKey: 'public_Kk7vTCZ4Nws9FCCjwussJeGF1vU=',
-      privateKey: 'private_ujQFrwhPcksNYb5gxC7nYqAUXj0=',
-      urlEndpoint: 'https://ik.imagekit.io/azn6jixxj',
+      publicKey: '*****',
+      privateKey: '******',
+      urlEndpoint: '*****',
     });
   }
   async uploadImage(fileBuffer: Buffer, fileName: string) {
